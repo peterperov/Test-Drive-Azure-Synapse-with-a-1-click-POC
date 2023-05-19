@@ -1,0 +1,7 @@
+{
+	"name": "AzureDataLakeStorage778",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/2fd2d39b-b2a1-4174-b80c-839540ed7340/resourceGroups/pp-rs-SynapseDemo101/providers/Microsoft.Storage/storageAccounts/ppsynapsedemo101",
+		"groupId": "dfs"
+	}
+}
