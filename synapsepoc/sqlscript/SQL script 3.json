@@ -1,0 +1,17 @@
+{
+	"name": "SQL script 3",
+	"properties": {
+		"content": {
+			"query": "SELECT \nConvert( date, [pickup_datetime] ), count(1) \nFROM [dbo].[TripsData]\ngroup by Convert( date, [pickup_datetime] ) ",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "cntht65e6bjv4wd4pocws1p1",
+				"poolName": "cntht65e6bjv4wd4pocws1p1"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}
