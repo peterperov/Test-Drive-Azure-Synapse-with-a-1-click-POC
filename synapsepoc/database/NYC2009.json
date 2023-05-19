@@ -1,0 +1,22 @@
+{
+	"name": "NYC2009",
+	"properties": {
+		"Name": "NYC2009",
+		"EntityType": "DATABASE",
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"Properties": {
+			"IsSyMSCDMDatabase": true
+		},
+		"Source": {
+			"Provider": "ADLS",
+			"Location": "abfss://nytaxi@ppsynapsedemo101.dfs.core.windows.net/2009",
+			"Properties": {
+				"FormatType": "parquet",
+				"LinkedServiceName": "NYCTestData101"
+			}
+		}
+	},
+	"type": "DATABASE"
+}
