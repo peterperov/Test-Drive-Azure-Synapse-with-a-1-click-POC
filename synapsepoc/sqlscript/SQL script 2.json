@@ -1,0 +1,17 @@
+{
+	"name": "SQL script 2",
+	"properties": {
+		"content": {
+			"query": "SELECT top(1000)\ndatepart(dw, pickup_datetime), count(1)\nFROM [dbo].[TripsData]\ngroup by datepart(dw, pickup_datetime)\n\n\n\n\n\n",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "cntht65e6bjv4wd4pocws1p1",
+				"poolName": "cntht65e6bjv4wd4pocws1p1"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}
