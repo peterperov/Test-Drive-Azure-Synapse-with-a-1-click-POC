@@ -1,0 +1,17 @@
+{
+	"name": "SQL script 1",
+	"properties": {
+		"content": {
+			"query": "select 'dbo.FaresData', count(1) from dbo.FaresData\nunion all\nselect 'dbo.TripsData', count(1) from dbo.TripsData\nunion all \nselect 'tripFares.AggregateTaxiData', count(1) from tripFares.AggregateTaxiData\n",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "cntht65e6bjv4wd4pocws1p1",
+				"poolName": "cntht65e6bjv4wd4pocws1p1"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}
